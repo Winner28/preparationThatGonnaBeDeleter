@@ -9,7 +9,7 @@ public class Car {
 
     }
 
-    public void setCarname(String name){
+    public void  setCarname(String name){
         this.carname = name;
     }
 
