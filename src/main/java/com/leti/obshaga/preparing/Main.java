@@ -11,7 +11,7 @@ public class Main {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/interview",
-                    "root","12345678");
+                    "root","password");
             Statement statement = connection.createStatement();
             ResultSet rs = statement.executeQuery("SELECT * FROM people");
             while (rs.next()) {

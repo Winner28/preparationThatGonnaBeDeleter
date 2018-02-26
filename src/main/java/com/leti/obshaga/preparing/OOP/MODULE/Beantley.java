@@ -11,7 +11,7 @@ public class Beantley extends Car {
     }
 
     public static void abc() {
-        System.out.println("pise");
+        System.out.println("pisedequery");
     }
 
     @Override

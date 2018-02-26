@@ -8,10 +8,10 @@ public class Main {
 
 
 
-        People vali=new People("zhopa");
+        People vali=new People("abc");
         vali.setCar(bentley);
         System.out.println("Moe imya " + vali.getName() );
-        vali.setName("pisun");
+        vali.setName("dcp");
         System.out.println("Moe imya " + vali.getName() );
         vali.viebnutsyaTachkoy();
     }
